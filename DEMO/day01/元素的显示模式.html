@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div {
+            color: #fff;
+            background-color: purple;
+            width: 700px;
+            height: 200px;
+            line-height: 200px;
+            /* 切换显示模式为内联块元素 */
+            display: inline-block;
+            padding: 10px;
+            margin: 10px;
+        }
+
+        a {
+            background-color: rebeccapurple;
+            text-decoration: none;
+            color: #333;
+            width: 200px;
+            height: 200px;
+            /* 切换显示模式为块元素 */
+            display: block;
+        }
+        input:focus {
+            color: seagreen;
+            border-color: slateblue;
+        }
+        input {
+            background-color: tomato;
+            width: 200px;
+            height: 200px;
+            display: block;
+        }
+    </style>
+</head>
+<body>
+    <!-- 块元素 -->
+    <div>典型的块元素，独占一行，可以设置宽高，内外边距，默认宽度为父元素宽度的100%</div>
+    <div>典型的块元素，独占一行，可以设置宽高，内外边距，默认宽度为父元素宽度的100%</div>
+    <br>
+    <!-- 内联元素 -->
+    <a href=""><p>块元素1</p></a><a href="">块元素2</a>
+    <!-- 内联块元素 -->
+    <input type="text" name="" id="">
+    <input type="text" name="" id="">
+    <table>
+        <tr>
+            <td><p>哈哈哈哈</p></td>
+            <td>jjjjj</td>
+        </tr>
+    </table>
+</body>
+</html>

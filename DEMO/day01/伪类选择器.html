@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* 把没有访问过的链接选择出来 */
+        a:link {
+            color: #333333;
+            text-decoration: none;
+        }
+
+        /* 把已经访问过的链接选出来 */
+        a:visited {
+            color:green;
+        }
+
+        /* 把鼠标经过的链接选择出来 */
+        a:hover {
+            color: skyblue;
+        }
+
+        /* 将鼠标正在按下的链接选出来 */
+        a:active {
+            color: orange;
+        }
+
+        input:focus {
+            color: purple;
+        }
+    </style>
+</head>
+<body>
+    <a href="#">链接1</a>
+    <br>
+    <a href="#">链接2</a>
+    <br>
+    <input type="text">
+    <br>
+    <input type="text">
+</body>
+</html>

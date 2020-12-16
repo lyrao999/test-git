@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* :after 尾元素法 */
+    /*    .clearfix:after {
+            content: "";
+            display: block;
+            height: 0;
+            clear: both;
+            visibility: hidden;
+        }
+    
+        .clearfix { // IE6、7专有
+            *zoom: 1;
+        }      
+    */
+
+        /* 双尾元素法     */
+        .clearfix:before,
+        .clearfix:after {
+            content: "";
+            display: table;
+        }
+        .clearfix:after {
+            clear: both;
+        }
+        .clearfix {
+            *zoom: 1;
+        }
+        
+        .box {
+            width: 1000px;
+            /* height: 200px; */
+            background-color: seagreen;
+            margin: 100px auto;
+            /* overflow: hidden; */
+        }
+        .one {
+            width: 200px;
+            height: 200px;
+            background-color: pink;
+            float: left;
+        }
+        .two {
+            width: 300px;
+            height: 300px;
+            background-color: purple;
+            float: right;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="box clearfix">
+        <div class="one"></div>
+        <div class="two">2</div>
+        <!-- <div style="clear: both;"></div> -->
+    </div>
+    
+</body>
+</html>

@@ -1,0 +1,193 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #f3f5f7;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+.w {
+    width: 1200px;
+    margin: auto;
+}
+
+.header {
+    height: 42px;
+    margin-top: 29px;
+    margin-bottom: 29px;
+    /* background: pink; */
+}
+
+.header .logo {
+    float: left;
+    width: 196px;
+    height: 42px;
+}
+
+.header .nav {
+    float: left;
+    height: 42px;
+    margin: 0 48px 0 48px;
+    line-height: 42px;
+}
+
+.header .nav ul li {
+    float: left;
+    margin: 0 15px 0 15px;   
+    text-align: center;
+}
+
+.header .nav ul li a {
+    display: block;
+    padding: 0 7px 0 7px;
+    font-size: 18px;
+    color: #050505;
+}
+
+.header .nav ul li a:hover {
+    border-bottom: 1px solid #00a4ff;
+    color: #00a4ff;
+}
+
+.header .search {
+    float: left;
+    margin-left: 25px;
+}
+
+.header .search input {
+    float: left;
+    width: 360px;
+    height: 40px;
+    padding-left: 18px;
+    border: 1px solid #00a4ff;
+    border-right: 0;
+    font-size: 14px;
+    color: #bfbfbf;
+}
+
+.header .search button {
+    float: left;
+    width: 50px;
+    height: 42px;
+    border: 0;
+    background-image: url(images/search.jpg);
+}
+
+.header .user {
+    float: left;
+    height: 42px;
+    margin-left: 30px;
+}
+
+.header .user img {
+    float: left;
+    width: 38px;
+    height: 42px;
+}
+
+.header .user span {
+    float: left;
+    height: 42px;
+    line-height: 42px;
+    margin-left: 1px;
+    font-size: 14px;
+    color: #666666;
+}
+
+/* banner区域 */
+.banner {
+    height: 420px;
+    background-color: #1c036c;
+}
+
+.banner .w {
+    position: relative;
+    height: 420px;
+    background-image: url(images/banner.jpg);
+}
+
+.banner .sub-nav {
+    float: left;
+    width: 190px;
+    height: 420px;
+    background-color: rgba(0, 0, 0, .3);
+}
+
+.banner .sub-nav ul {
+    margin-top: 10px;
+}
+
+.banner .sub-nav ul li a {
+    display: block;
+    height: 44px;
+    padding-left: 22px;
+    line-height: 44px;
+    font-size: 14px;
+    color: #fff;
+}
+
+.banner .sub-nav ul li a:hover {
+    color: #048acf;
+}
+
+.banner .sub-nav ul li a span {
+    padding-left: 84px;
+}
+
+.banner .course {
+    float: right;
+    /* 浮动的盒子不会有外边距塌陷的问题 */
+    margin-top: 50px;
+    width: 230px;
+    height: 300px;
+    background-color: #fff;
+}
+
+.banner .course h2 {  
+    height: 48px;   
+    background-color: #9bceea;
+    font-size: 18px;
+    line-height: 48px;
+    color: #fff;
+    text-align: center;
+}
+
+.banner .course .bd {
+    padding: 0 20px;
+}
+
+.banner .course .bd ul li {
+    padding: 12px 0;
+    border-bottom: 1px solid #a5a5a5;
+}
+
+.banner .course .bd ul li h4 {
+    font: 18px;
+    color: #5f5f5f;
+}
+
+.banner .course .bd ul li p {
+    font-size: 14px;
+    color: #bfbfbf;
+}
+
+.banner .course .bd a {
+    display: block;
+    height: 36px;
+    margin-top: 5px;
+    border: 1px solid #22b0ff;
+    font-size: 16px;
+    font-weight: 700;
+    color: #00a4ff;
+    line-height: 36px;
+    text-align: center;
+}
