@@ -25,7 +25,7 @@
     float: right;
 }
 
-.style-red {
+.style_red {
     color:#c81623;
 }
 
@@ -40,38 +40,6 @@
 .short-cut ul li {
     float: left;
 }
-
-/* .fl ul li {
-    float: left;
-    line-height: 30px;
-}
-
-.fr ul li {
-    float: left;
-    height: 14px;
-    line-height: 14px;
-    margin-top: 9px;
-}
-
-.fr ul li:nth-child(-n+6) {   
-    padding: 0 14px;
-    border-right: 1px solid #666666;
-}
-
-.fr ul li:last-child {
-    padding-left: 14px;
-}
-
-.fr .tria::after {
-    content: "";
-    display: inline-block;
-    width: 5px;
-    height: 5px;
-    border-top: 1px solid #666666;
-    border-right: 1px solid #666666;
-    margin: 0 0 5px 14px;
-    transform: rotate(135deg);
-} */
 
 .fr ul li:nth-child(even) {
     height: 12px;
@@ -209,9 +177,9 @@
 }
 
 .dropdown .dd {
-    display: none;
+    display: block;
     margin-top: 2px;
-    height: 468px;
+    height: 465px;
     background-color: #c81623;
 }
 
@@ -219,6 +187,7 @@
     position: relative;
     margin-left: 2px;
     padding-left: 14px;
+    height: 31px;
     line-height: 31px;
 }
 
@@ -241,6 +210,7 @@
 }
 
 .dd ul li a {
+    float: left;
     font-size: 14px;
     color: #fff;
 }
