@@ -1,0 +1,160 @@
+/* 注册页样式表 */
+.w {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.register .header {
+    height: 84px;
+    border-bottom: 2px solid #b1191a;
+}
+
+/* 注册头部 */
+.register .reg_area {
+    height: 522px;
+    margin: 20px 0;
+    border: 1px solid #dfdfdf;
+}
+
+.reg_area .reg_hd {
+    height: 41px;
+    line-height: 40px;
+    padding: 0 10px;
+    border-bottom: 1px solid #dfdfdf;
+    background-color: #ececec; 
+    font-size: 18px;
+    color: #333333;
+}
+
+.reg_hd p {
+    float: left;
+}
+
+.reg_hd .login {
+    float: right;
+    font-size: 14px;
+}
+
+.reg_hd .login a {
+    color: #c81623;
+}
+
+/* 注册主体 */
+.reg_bd {
+    width: 600px;
+    height: 370px;
+    margin: 54px auto 0;
+}
+
+.reg_bd ul li {
+    margin-bottom: 20px;
+}
+
+.reg_bd ul li label {
+    display: inline-block;
+    width: 100px;
+    font-size: 14px;
+    color: #4d4d4d;
+    text-align: right;
+}
+
+.reg_bd ul li input {
+    width: 240px;
+    height: 36px;
+    border: 1px solid #999999;
+}
+
+.error,
+.success {
+    height: 36px;
+    line-height: 36px;
+    color: #df3033;
+}
+
+.error .err_icon,
+.success .success_icon {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    margin: 0 5px 0 10px;
+    border-radius: 50%;
+    background: url(../images/error.png) no-repeat;
+    vertical-align: middle;
+}
+
+.success {
+    color: #1eca1b;
+}
+
+.success .success_icon {
+    background-image: url(../images/success.png);
+}
+
+.safe {
+    margin-top: -10px;
+    padding-left: 182px;
+    color: #b2b2b2;
+}
+
+.safe span {
+    padding: 0 10px;
+    color: #ffffff;
+}
+
+.safe .ruo {
+    margin-left: 11px;
+    background-color: #de1111;
+}
+
+.safe .zhong {
+    margin: 0 1px;
+    background-color: #40b83f;
+}
+
+.safe .qiang {
+    background-color: #f79100;
+}
+
+.reg_bd .agree {
+    height: 16px;
+    line-height: 16px;
+    margin-top: 40px;
+    color: #4d4d4d;
+}
+
+.reg_bd .agree input {
+    width: 16px;
+    height: 16px;
+    margin: 0 13px 0 100px;
+    background-color: #f2f2f2;
+    vertical-align: top;
+}
+
+.agree span {
+    color: #1ba1e6;
+}
+
+.reg_bd .submit input {
+    width: 200px;
+    height: 34px;
+    margin: 50px 0 0 115px;
+    color: #fff;
+    background-color: #c81623;
+}
+
+.mod_copyright {
+    padding-top: 20px;
+    text-align: center;
+}
+
+.mod_copyright_links {
+    margin-bottom: 15px;
+}
+
+.mod_copyright_links a {
+    padding: 0 3px;
+}
+
+.mod_copyright_info {
+    line-height: 20px;
+}
